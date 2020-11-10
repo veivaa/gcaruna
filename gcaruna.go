@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aakso/gcaruna/client"
-	"github.com/aakso/gcaruna/output"
+	"github.com/veivaa/gcaruna/client"
+	"github.com/veivaa/gcaruna/output"
 )
 
 type (
