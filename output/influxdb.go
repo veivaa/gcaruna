@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aakso/gcaruna/client"
-	influxdb "github.com/influxdb/influxdb/client/v2"
+	"github.com/veivaa/gcaruna/client"
+	influxdb "github.com/influxdata/influxdb1-client/v2"
 )
 
 type InfluxDBConfig struct {
