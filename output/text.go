@@ -7,7 +7,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/aakso/gcaruna/client"
+	"github.com/veivaa/gcaruna/client"
 )
 
 func PrintTextMeteringPoints(mps []caruna.MeteringPoint) {
