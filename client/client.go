@@ -153,7 +153,8 @@ func (self *CarunaClient) GetCustomerInfo() (*CustomerInfo, error) {
 	if err != nil {
 		return nil, err
 	}
-
+	
+	self.Logger.Println("resp.Data:", resp.Data)
 	ret := &CustomerInfo{}
 	err = json.Unmarshal(resp.Data, ret)
 	if err != nil {
