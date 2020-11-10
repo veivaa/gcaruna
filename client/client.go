@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aakso/gcaruna/parser"
+	"github.com/veivaa/gcaruna/parser"
 )
 
 const (
